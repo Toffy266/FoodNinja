@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+
+        // Add the Esri public Maven repository
+        maven {
+            url 'https://esri.jfrog.io/artifactory/arcgis'
+        }
+    }
+}
+rootProject.name = "My Application"
+include ':app'

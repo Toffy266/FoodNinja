@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:background="#1E2026"
+    android:focusableInTouchMode="true"
+    tools:context=".HomeFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.9"
+                    android:background="#1E2026"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_centerVertical="true"
+                                    android:text="Discover"
+                                    android:textColor="@color/white"
+                                    android:textSize="33sp"
+                                    android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:hint="Search"
+                            android:textColorHint="#B2B3B6"
+                            app:errorEnabled="true"
+                            app:startIconDrawable="@drawable/ic_baseline_search_24"
+                            app:startIconTint="#E68C59">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/etSearchInput"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/round_corner"
+                                    android:textColor="@color/white" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                        <androidx.viewpager2.widget.ViewPager2
+                            android:id="@+id/foodViewPager2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:background="#1E2026"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    tools:context=".SplashScreenFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_screen_lg" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/viga_regular"
+        android:text="FoodNinja"
+        android:textColor="#E68C59"
+        android:textFontWeight="400"
+        android:textSize="40sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semi_bold"
+        android:text="Deliever Favorite Food"
+        android:textColor="@color/white"
+        android:textFontWeight="600"
+        android:textSize="13sp" />
+</LinearLayout>

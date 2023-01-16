@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="13dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#d43a80"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:contentPadding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <RelativeLayout
+                android:id="@+id/foodTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:alpha="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/iv_profile"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/chefName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Martha Wix"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chef"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/foodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foodTop"
+                android:layout_marginTop="15dp"
+                android:text="Roast Veggies"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/toppingFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foodName"
+                android:layout_marginTop="5dp"
+                android:text="Topping: sauce, mayonnaise, cheese"
+                android:textColor="#FBD0A5"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageUrl"
+                android:layout_width="245dp"
+                android:layout_height="245dp"
+                android:layout_below="@+id/toppingFood"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/food_example" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageUrl"
+                android:paddingBottom="15dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/locationBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:fontFamily="@font/benton_sans_regular"
+                    android:text="LOCATION"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/white"
+                    app:cornerRadius="8dp"
+                    app:strokeColor="#F4F4F4"
+                    app:strokeWidth="2.5dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buyBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/benton_sans_regular"
+                    android:text="฿ 15.00"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@color/white"
+                    app:cornerRadius="8dp"
+                    app:strokeColor="#F4F4F4"
+                    app:strokeWidth="2.5dp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
