@@ -1,4 +1,4 @@
-# Mini Project CP457 Application Programming
+# Mini Project CP457 Application Programming (Simple Shopping Cart)
 
 App Preview (videos) : https://youtube.com/shorts/nowaJ3m4psM?feature=share
 
