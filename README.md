@@ -2,7 +2,7 @@
 
 App Preview (videos) : https://youtube.com/shorts/nowaJ3m4psM?feature=share
 
-Add items and check out from the shopping cart.
+App Function : Add items and check out from the shopping cart.
 
 สมาชิก: 
 1) นางสาวบงกช บัวศรี (62102010171)
