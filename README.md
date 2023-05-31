@@ -1,6 +1,6 @@
 # Mini Project CP457 Application Programming (Simple Shopping Cart)
 
-App Preview (videos) : [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=https://youtube.com/shorts/nowaJ3m4psM)
+App Preview (videos) : [![Watch the video](https://img.youtube.com/vi/nowaJ3m4psM/default.jpg)](https://youtube.com/shorts/nowaJ3m4psM)
 
 App Function : Add items and check out from the shopping cart.
 
